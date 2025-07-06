@@ -104,7 +104,6 @@ export const ProcessSite = styled.section`
       border-radius: 24px;
       overflow: hidden;
       transition: transform 0.3s ease-in-out;
-      height: 80%;
 
       ${devices.smartphone} {
         transform: none;
@@ -213,7 +212,7 @@ export const ProcessSite = styled.section`
           theme === themeList.light
             ? "var(--light-text-black)"
             : "var(--dark-text-white)"};
-        font-size: 54px;
+        font-size: 40px;
         line-height: 1.3;
         font-weight: 700;
 
