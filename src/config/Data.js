@@ -22,6 +22,11 @@ import {
   FaUserAlt,
   FaWhatsapp,
   FaRegEnvelope,
+  FaPen,
+  FaCogs,
+  FaStreetView,
+  FaTiktok,
+  FaLinkedin,
 } from "react-icons/fa";
 
 import {
@@ -142,10 +147,10 @@ export const HERO_DATA_EQUIRON = {
     hero_image_overlay: hero_overlay,
     hero_image_about: hero_about,
     text_small: "Your Guardian in Law",
-    big_heading: "Experienced.",
-    big_heading2: "Lawyers, Proven, Result",
+    big_heading: "Trusted Legal Solutions,",
+    big_heading2: "for Your Business and Family",
     description:
-      "Our team of experienced attorneys has a diverse range of expertise, covering a wide spectrum of legal areas. We specialize in corporate law, family law.",
+      "We bring dedication, expertise, and commitment to deliver the best outcomes",
     button: [
       {
         to: "https://wa.me/+6287772300770",
@@ -160,10 +165,10 @@ export const HERO_DATA_EQUIRON = {
     hero_image_overlay: hero_overlay,
     hero_image_about: hero_about,
     text_small: "Penjaga Anda dalam Hukum",
-    big_heading: "Berpengalaman.",
-    big_heading2: "Pengacara, Terbukti, Hasil",
+    big_heading: "Solusi Hukum Andal,",
+    big_heading2: "untuk Bisnis dan Keluarga Anda",
     description:
-      "Tim pengacara kami yang berpengalaman memiliki keahlian yang beragam, mencakup berbagai bidang hukum. Kami mengkhususkan diri pada hukum korporasi dan hukum keluarga.",
+      "Kami hadir dengan dedikasi, keahlian, dan komitmen untuk hasil terbaik.",
     button: [
       {
         to: "https://wa.me/+6287772300770",
@@ -191,58 +196,66 @@ export const ABOUT_DATA_EQUIRON = {
   ],
   en: {
     about_title:
-      "Our core values—Trust, Commitment, and Accessibility—are at the heart of everything we do.",
-    about_heading: "A Legacy <span>Of</span> Legal Excellence",
+      "We do more than advise — we stand as your trusted legal partner, always within reach.",
+    about_heading:
+      "Your Strategic Legal Partner,  <span>Built on Trust,</span> Commitment, and Accessibility.",
     about_desc:
       "is a forward-thinking, full-service law firm dedicated to providing comprehensive legal solutions across various sectors. Founded with a vision to become a trusted legal partner, we serve individuals, businesses, and organizations with professionalism and integrity. Our core values—Trust, Commitment, and Accessibility—are at the heart of everything we do.",
     about_skill_data: [
       {
         icon: FaCheckCircle,
-        text: "Trust is the foundation of our client relationships.",
+        text: "Trust is the foundation of every legal step we take with our clients.",
       },
       {
         icon: FaCheckCircle,
-        text: "Client-Centered Approach, Excellence and Proactivity",
+        text: "Our commitment is reflected in strategic approaches and measurable outcomes.",
       },
       {
         icon: FaCheckCircle,
-        text: "Accessibility is central to our philosophy.",
+        text: "Accessibility that matters: we're available when you need us— without barriers.",
       },
-      { icon: FaCheckCircle, text: "Partners in Your Success" },
+      {
+        icon: FaCheckCircle,
+        text: "We don't just provide solutions—we build partnerships for your success.",
+      },
     ],
     about_stats_data: [
-      { icon: <FaBalanceScale />, value: "10k+", label: "Case Done" },
-      { icon: <FaUserShield />, value: "12k+", label: "Expert Attorneys" },
-      { icon: <FaStarHalfAlt />, value: "15k+", label: "Happy Clients" },
-      { icon: <FaTrophy />, value: "20k+", label: "Award Winning" },
+      { icon: <FaBalanceScale />, value: "+", label: "Case Done" },
+      { icon: <FaUserShield />, value: "6+", label: "Expert Attorneys" },
+      { icon: <FaStarHalfAlt />, value: "+", label: "Happy Clients" },
+      { icon: <FaTrophy />, value: "+", label: "Award Winning" },
     ],
   },
   id: {
     about_title:
-      "Nilai-nilai utama kami—Kepercayaan, Komitmen, dan Aksesibilitas—adalah inti dari semua yang kami lakukan.",
-    about_heading: "Warisan <span>Keunggulan</span> Hukum",
+      "Kami hadir bukan sekadar memberi nasihat hukum, tetapi menjadi mitra terpercaya yang selalu dapat diandalkan.",
+    about_heading:
+      "Mitra Hukum Strategis yang Didorong oleh <span>Kepercayaan,</span> Komitmen, dan Aksesibilitas.",
     about_desc:
       "adalah firma hukum layanan lengkap yang berpikiran maju, didedikasikan untuk menyediakan solusi hukum yang komprehensif di berbagai sektor. Didirikan dengan visi menjadi mitra hukum terpercaya, kami melayani individu, bisnis, dan organisasi dengan profesionalisme dan integritas. Nilai-nilai inti kami—Kepercayaan, Komitmen, dan Aksesibilitas—adalah inti dari semua yang kami lakukan.",
     about_skill_data: [
       {
         icon: FaCheckCircle,
-        text: "Kepercayaan adalah fondasi hubungan kami dengan klien.",
+        text: "Kepercayaan adalah dasar dari setiap langkah hukum yang kami ambil bersama klien.",
       },
       {
         icon: FaCheckCircle,
-        text: "Pendekatan Berorientasi Klien, Keunggulan, dan Proaktif",
+        text: "Komitmen kami tercermin dalam pendekatan strategis dan hasil yang terukur.",
       },
       {
         icon: FaCheckCircle,
-        text: "Aksesibilitas adalah pusat dari filosofi kami.",
+        text: "Aksesibilitas nyata: kami hadir saat Anda membutuhkan, tanpa batasan.",
       },
-      { icon: FaCheckCircle, text: "Mitra dalam Kesuksesan Anda" },
+      {
+        icon: FaCheckCircle,
+        text: "Kami tidak hanya memberi solusi, kami membangun kemitraan menuju kesuksesan Anda.",
+      },
     ],
     about_stats_data: [
-      { icon: <FaBalanceScale />, value: "10rb+", label: "Kasus Selesai" },
-      { icon: <FaUserShield />, value: "12rb+", label: "Pengacara Ahli" },
-      { icon: <FaStarHalfAlt />, value: "15rb+", label: "Klien Puas" },
-      { icon: <FaTrophy />, value: "20rb+", label: "Penghargaan" },
+      { icon: <FaBalanceScale />, value: "+", label: "Kasus Selesai" },
+      { icon: <FaUserShield />, value: "6+", label: "Pengacara Ahli" },
+      { icon: <FaStarHalfAlt />, value: "+", label: "Klien Puas" },
+      { icon: <FaTrophy />, value: "+", label: "Penghargaan" },
     ],
   },
   about_images_one: {
@@ -260,7 +273,7 @@ export const SERVICES_DATA_EQUIRON = {
   en: {
     service_big_heading: "Legal Services We Offer",
     service_desc:
-      "At Equiron & Co., we provide forward-thinking and comprehensive legal services tailored to meet the demands of today’s dynamic legal landscape. Guided by our core values—Trust, Commitment, and Accessibility—we deliver clear, strategic legal counsel across a broad spectrum of practice areas. Whether serving individuals, corporations, or institutions, our experienced team takes a client-first approach, ensuring each solution is crafted with precision, integrity, and a deep understanding of your unique needs. With Equiron & Co. by your side, you can face legal complexities with clarity and confidence.",
+      "At Equiron & Co., we deliver legal services that are strategic, trusted, and accessible. Guided by strong commitment and a deep understanding of our clients' needs, we provide precise, outcome-driven legal solutions. With us, you face legal challenges with clarity—backed by integrity, dedication, and a genuine partnership.",
     service_data_services: [
       {
         icon: service_card_1_1,
@@ -342,9 +355,9 @@ export const SERVICES_DATA_EQUIRON = {
     ],
   },
   id: {
-    service_big_heading: "Layanan Hukum yang Kami Tawarkan",
+    service_big_heading: "Layanan Hukum yang kami Tawarkan",
     service_desc:
-      "Di Equiron & Co., kami menyediakan layanan hukum yang berpikiran maju dan komprehensif yang disesuaikan untuk memenuhi tuntutan lanskap hukum yang dinamis saat ini. Dipandu oleh nilai-nilai inti kami—Kepercayaan, Komitmen, dan Aksesibilitas—kami memberikan nasihat hukum yang jelas dan strategis di berbagai bidang praktik. Baik melayani individu, perusahaan, atau lembaga, tim kami yang berpengalaman mengutamakan pendekatan yang berfokus pada klien, memastikan setiap solusi dibuat dengan presisi, integritas, dan pemahaman yang mendalam terhadap kebutuhan unik Anda. Bersama Equiron & Co., Anda dapat menghadapi kompleksitas hukum dengan kejelasan dan keyakinan.",
+      "Di Equiron & Co., kami menghadirkan layanan hukum yang strategis, terpercaya, dan mudah diakses. Didukung oleh komitmen tinggi dan pemahaman mendalam terhadap kebutuhan klien, kami memberikan solusi hukum yang presisi dan berorientasi hasil. Bersama kami, Anda mendapatkan kejelasan dalam menghadapi tantangan hukum— dengan integritas, dedikasi, dan kemitraan yang nyata.",
     service_data_services: [
       {
         icon: service_card_1_1,
@@ -430,33 +443,65 @@ export const SERVICES_DATA_EQUIRON = {
 export const PROCESS_DATA_EQUIRON = {
   en: {
     process_text: "Work Process",
-    process_title: "Navigating the Law: Your Assurance of Peace",
+    process_title:
+      "Guiding You Through the Law with Trust, Commitment, and Accessibility",
     process_data_works: [
       {
         title: "Consultations",
-        desc: `The consultation begins with a client inquiry. We schedule a meeting, either online or in-person. During the session, we identify legal issues and gather relevant documents. After analysis, we provide legal advice and possible solutions. If needed, follow-up consultations are arranged. Confidentiality is guaranteed throughout. We ensure clarity, professionalism, and support every step of the way to resolve legal matters effectively.`,
+        desc: `We begin by listening. A scheduled meeting—online or in-person—helps us understand your legal needs. We identify the issues and gather essential documents. Clarity, confidentiality, and professionalism are ensured from the start.`,
         icon: FaRegHandshake,
       },
       {
+        title: "Legal Analysis",
+        desc: `We conduct a thorough review of the facts and legal context. Our team evaluates risks, rights, and potential outcomes to build a sound legal foundation for your case.`,
+        icon: FaPen,
+      },
+      {
+        title: "Strategy Planning",
+        desc: `Based on the analysis, we design a tailored legal strategy. We prioritize your goals and propose actions that are realistic, efficient, and legally strong.`,
+        icon: FaCogs,
+      },
+      {
         title: "Executions",
-        desc: `After consultation, we draft necessary legal documents and agreements. Upon client approval, we proceed with filing, negotiation, or representation. We coordinate with relevant authorities or parties to ensure proper execution. Throughout the process, we provide updates and clarify each step. Final outcomes are reviewed with the client. Our goal is to deliver effective, timely, and compliant results that reflect the agreed legal strategy and protect the client’s interests.`,
+        desc: `We proceed with drafting, filing, negotiating, or representing—based on the agreed plan. All documents and actions are prepared with precision and compliance.`,
         icon: FaRegNewspaper,
+      },
+      {
+        title: "Follow-Up & Support",
+        desc: `Legal support doesn’t end after execution. We monitor progress, update clients, and provide further consultation as needed to ensure sustainable outcomes.`,
+        icon: FaStreetView,
       },
     ],
   },
   id: {
     process_text: "Proses Kerja",
-    process_title: "Menavigasi Hukum: Jaminan Ketenteraman Anda",
+    process_title:
+      "Mengarungi Proses Hukum dengan Kepercayaan, Komitmen, dan Akses Tanpa Batas",
     process_data_works: [
       {
-        title: "Konsultasi",
-        desc: `Konsultasi dimulai dengan pertanyaan dari klien. Kami menjadwalkan pertemuan, baik secara online maupun tatap muka. Selama sesi, kami mengidentifikasi masalah hukum dan mengumpulkan dokumen yang relevan. Setelah analisis, kami memberikan saran hukum dan solusi yang memungkinkan. Jika diperlukan, konsultasi lanjutan dijadwalkan. Kerahasiaan dijamin sepanjang proses. Kami memastikan kejelasan, profesionalisme, dan dukungan di setiap langkah untuk menyelesaikan masalah hukum secara efektif.`,
+        title: "Konsultasi Awal",
+        desc: `Proses dimulai dari mendengarkan kebutuhan hukum Anda melalui pertemuan tatap muka atau daring. Kami mengidentifikasi isu dan mengumpulkan dokumen penting. Kejelasan, kerahasiaan, dan profesionalisme dijaga sejak awal.`,
         icon: FaRegHandshake,
       },
       {
-        title: "Eksekusi",
-        desc: `Setelah konsultasi, kami menyusun dokumen dan perjanjian hukum yang diperlukan. Setelah disetujui klien, kami melanjutkan dengan pengajuan, negosiasi, atau perwakilan hukum. Kami berkoordinasi dengan pihak berwenang atau pihak terkait untuk memastikan eksekusi yang tepat. Sepanjang proses, kami memberikan pembaruan dan penjelasan. Hasil akhir ditinjau bersama klien. Tujuan kami adalah memberikan hasil yang efektif, tepat waktu, dan sesuai hukum yang mencerminkan strategi hukum yang disepakati dan melindungi kepentingan klien.`,
+        title: "Analisis Hukum",
+        desc: `Kami meninjau fakta dan konteks hukum secara menyeluruh. Tim kami mengevaluasi risiko, hak, dan potensi penyelesaian untuk membangun dasar hukum yang kuat.`,
+        icon: FaPen,
+      },
+      {
+        title: "Perencanaan Strategi",
+        desc: `Berdasarkan analisis, kami menyusun strategi hukum yang disesuaikan dengan tujuan Anda. Setiap langkah dirancang untuk efisien, legal, dan berorientasi hasil.`,
+        icon: FaCogs,
+      },
+      {
+        title: "Pelaksanaan",
+        desc: `Kami melaksanakan rencana melalui penyusunan dokumen hukum, pengajuan, negosiasi, atau perwakilan. Semua dilakukan dengan presisi dan kepatuhan terhadap hukum.`,
         icon: FaRegNewspaper,
+      },
+      {
+        title: "Tindak Lanjut & Dukungan",
+        desc: `Layanan hukum kami tidak berhenti di pelaksanaan. Kami memantau perkembangan, memberi pembaruan berkala, dan siap memberikan konsultasi lanjutan jika diperlukan.`,
+        icon: FaStreetView,
       },
     ],
   },
@@ -782,26 +827,26 @@ export const CLIENTS_DATA_EQUIRON = {
       title: "pssi_logo",
       image: pssi_logo,
     },
-    {
-      name: "Chakra Giri",
-      title: "chakra_giri_logo",
-      image: chakra_giri_logo,
-    },
-    {
-      name: "Dana Paint",
-      title: "dana_paint_logo",
-      image: dana_paint_logo,
-    },
+    // {
+    //   name: "Chakra Giri",
+    //   title: "chakra_giri_logo",
+    //   image: chakra_giri_logo,
+    // },
+    // {
+    //   name: "Dana Paint",
+    //   title: "dana_paint_logo",
+    //   image: dana_paint_logo,
+    // },
     {
       name: "CLM",
       title: "clm_logo",
       image: clm_logo,
     },
-    {
-      name: "Gaharu Pelayaran",
-      title: "gaharu_pelayaran_logo",
-      image: gaharu_pelayaran_logo,
-    },
+    // {
+    //   name: "Gaharu Pelayaran",
+    //   title: "gaharu_pelayaran_logo",
+    //   image: gaharu_pelayaran_logo,
+    // },
     {
       name: "Citra Harapan Jaya Permai",
       title: "citra_harapan_jaya_permai_logo",
@@ -832,21 +877,21 @@ export const CLIENTS_DATA_EQUIRON = {
       title: "pbe_logo",
       image: pbe_logo,
     },
-    {
-      name: "Semesta Energi Service",
-      title: "semesta_energi_service_logo",
-      image: semesta_energi_service_logo,
-    },
+    // {
+    //   name: "Semesta Energi Service",
+    //   title: "semesta_energi_service_logo",
+    //   image: semesta_energi_service_logo,
+    // },
     {
       name: "Tridaya Esa Pakarti",
       title: "tridaya_esa_pakarti_logo",
       image: tridaya_esa_pakarti_logo,
     },
-    {
-      name: "Warna Warni",
-      title: "warna_warni_logo",
-      image: warna_warni_logo,
-    },
+    // {
+    //   name: "Warna Warni",
+    //   title: "warna_warni_logo",
+    //   image: warna_warni_logo,
+    // },
   ],
   clients_shape_mockup_data: [
     {
@@ -878,7 +923,7 @@ export const CONTACT_DATA_EQUIRON = {
         value: "request_type",
         value_radio: [
           { label: "Individual", value: "Individual" },
-          { label: "Non Individual", value: "Non Individual" },
+          { label: "Company", value: "Company" },
         ],
       },
       {
@@ -961,7 +1006,7 @@ export const CONTACT_DATA_EQUIRON = {
           },
         ],
         maps: {
-          href: "https://maps.app.goo.gl/QnPgB2Svhveq7kpJ8",
+          href: "https://maps.app.goo.gl/vHPkHfv3Z8CuRhh9A",
           text: "Open in Maps",
         },
       },
@@ -980,8 +1025,8 @@ export const CONTACT_DATA_EQUIRON = {
         title_fields: "Tipe Request",
         value: "request_type",
         value_radio: [
-          { label: "Individu", value: "Individual" },
-          { label: "Non Individu", value: "Non Individual" },
+          { label: "Individu", value: "Individu" },
+          { label: "Perusahaan", value: "Perusahaan" },
         ],
       },
       {
@@ -1064,7 +1109,7 @@ export const CONTACT_DATA_EQUIRON = {
           },
         ],
         maps: {
-          href: "https://maps.app.goo.gl/QnPgB2Svhveq7kpJ8",
+          href: "https://maps.app.goo.gl/vHPkHfv3Z8CuRhh9A",
           text: "Buka Maps",
         },
       },
@@ -1095,6 +1140,18 @@ export const CONTACT_DATA_EQUIRON = {
       label: "Instagram",
       title: "@equironandco",
       to: "https://www.instagram.com/equironandco/",
+    },
+    {
+      icon: FaTiktok,
+      label: "Tiktok",
+      title: "@equiron.and.co",
+      to: "https://www.tiktok.com/@equiron.and.co",
+    },
+    {
+      icon: FaLinkedin,
+      label: "Linkedin",
+      title: "equiron-and-co",
+      to: "https://id.linkedin.com/in/equiron-and-co-487497368",
     },
   ],
 };
@@ -1148,6 +1205,16 @@ export const FOOTER_DATA_EQUIRON = {
       },
       { to: "mailto:equironandco@gmail.com", label: "Email", icon: FiMail },
       { to: "tel:+6287772300770", label: "Phone", icon: FiPhone },
+      {
+        to: "https://www.tiktok.com/@equiron.and.co",
+        label: "Tiktok",
+        icon: FaTiktok,
+      },
+      {
+        to: "https://id.linkedin.com/in/equiron-and-co-487497368",
+        label: "Linkedin",
+        icon: FaLinkedin,
+      },
     ],
     footer_contact_info: [
       {
@@ -1226,6 +1293,16 @@ export const FOOTER_DATA_EQUIRON = {
       },
       { to: "mailto:equironandco@gmail.com", label: "Email", icon: FiMail },
       { to: "tel:+6287772300770", label: "Phone", icon: FiPhone },
+      {
+        to: "https://www.tiktok.com/@equiron.and.co",
+        label: "Tiktok",
+        icon: FaTiktok,
+      },
+      {
+        to: "https://id.linkedin.com/in/equiron-and-co-487497368",
+        label: "Linkedin",
+        icon: FaLinkedin,
+      },
     ],
     footer_contact_info: [
       {

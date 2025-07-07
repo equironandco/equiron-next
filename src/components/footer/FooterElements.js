@@ -395,8 +395,8 @@ export const WaItemSite = styled.div`
       text-align: right;
       overflow: hidden;
       bottom: 15px;
-      width: 150px;
-      height: 50px;
+      width: 170px;
+      height: 60px;
       right: 15px;
       z-index: 99;
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -404,7 +404,7 @@ export const WaItemSite = styled.div`
       a {
         display: flex;
         align-items: center;
-        height: 50px;
+        height: 60px;
         width: 100%;
       }
     }
@@ -418,8 +418,9 @@ export const WaItemSite = styled.div`
       text-align: center;
       line-height: 1.2;
       background: 0 0;
-      font-size: 10px;
-      width: 90px;
+      font-size: 11px;
+      width: 100px;
+      font-weight: 600;
     }
 
     &_icon {
@@ -429,8 +430,8 @@ export const WaItemSite = styled.div`
       background-size: 90%;
       border-radius: 50px;
       margin-left: auto;
-      height: 50px;
-      width: 50px;
+      height: 60px;
+      width: 60px;
     }
   }
 `;

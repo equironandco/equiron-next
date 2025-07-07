@@ -153,7 +153,7 @@ export const HeroSite = styled.section`
         ? "var(--dark-text-white)"
         : "var(--dark-text-white)"};
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0px;
 
     ${devices.smartphone} {
@@ -169,7 +169,7 @@ export const HeroSite = styled.section`
     color: ${({ theme: { theme } }) =>
       theme === themeList.light ? "#fff" : "#fff"};
     font-weight: 600;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0px;
 
     ${devices.smartphone} {
