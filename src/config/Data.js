@@ -57,6 +57,7 @@ import {
   publication_image,
   publications_shape_left,
   publications_shape_right,
+  ras_logo,
   semesta_energi_service_logo,
   service_card_1_1,
   service_card_1_2,
@@ -146,11 +147,11 @@ export const HERO_DATA_EQUIRON = {
     hero_image_background: hero_background,
     hero_image_overlay: hero_overlay,
     hero_image_about: hero_about,
-    text_small: "Your Guardian in Law",
-    big_heading: "Trusted Legal Solutions,",
-    big_heading2: "for Your Business and Family",
+    text_small: "Trusted Legal Solutions for Your Business and Family",
+    big_heading: "We bring dedication,",
+    big_heading2: "expertise, and commitment to deliver the best outcomes",
     description:
-      "We bring dedication, expertise, and commitment to deliver the best outcomes",
+      "We do more than advise — we stand as your trusted legal partner, always within reach.",
     button: [
       {
         to: "https://wa.me/+6287772300770",
@@ -164,11 +165,11 @@ export const HERO_DATA_EQUIRON = {
     hero_image_background: hero_background,
     hero_image_overlay: hero_overlay,
     hero_image_about: hero_about,
-    text_small: "Penjaga Anda dalam Hukum",
-    big_heading: "Solusi Hukum Andal,",
-    big_heading2: "untuk Bisnis dan Keluarga Anda",
+    text_small: "Solusi Hukum Andal untuk Bisnis dan Keluarga Anda",
+    big_heading: "Kami hadir dengan",
+    big_heading2: "dedikasi, keahlian, dan komitmen untuk hasil terbaik",
     description:
-      "Kami hadir dengan dedikasi, keahlian, dan komitmen untuk hasil terbaik.",
+      "Kami hadir bukan sekadar memberi nasihat hukum, tetapi menjadi mitra terpercaya yang selalu dapat diandalkan.",
     button: [
       {
         to: "https://wa.me/+6287772300770",
@@ -892,6 +893,11 @@ export const CLIENTS_DATA_EQUIRON = {
     //   title: "warna_warni_logo",
     //   image: warna_warni_logo,
     // },
+    {
+      name: "PT Ricky Asnawi Sentosa",
+      title: "ras_logo",
+      image: ras_logo,
+    },
   ],
   clients_shape_mockup_data: [
     {
@@ -1010,6 +1016,32 @@ export const CONTACT_DATA_EQUIRON = {
           text: "Open in Maps",
         },
       },
+      {
+        title: "Virtual Office",
+        address:
+          "Blok V.3 02/06, Desa Bunibakti, Kecamatan Babelan, Kabupaten Bekasi, Jawa Barat.",
+        information: [
+          {
+            label: "Email:",
+            value: "PTRickyAsnawiSentosa@gmail.com",
+            href: "mailto:PTRickyAsnawiSentosa@gmail.com",
+          },
+          {
+            label: "Phone Number:",
+            value: "6281287388422",
+            href: "https://wa.me/6281287388422",
+          },
+          {
+            label: "Phone Number II :",
+            value: "6281281931877",
+            href: "https://wa.me/6281281931877",
+          },
+        ],
+        maps: {
+          href: "https://maps.app.goo.gl/v3HzBLeDZhkXKWc58",
+          text: "Open in Maps",
+        },
+      },
     ],
   },
 
@@ -1110,6 +1142,32 @@ export const CONTACT_DATA_EQUIRON = {
         ],
         maps: {
           href: "https://maps.app.goo.gl/vHPkHfv3Z8CuRhh9A",
+          text: "Buka Maps",
+        },
+      },
+      {
+        title: "Kantor Virtual",
+        address:
+          "Blok V.3 02/06, Desa Bunibakti, Kecamatan Babelan, Kabupaten Bekasi, Jawa Barat.",
+        information: [
+          {
+            label: "Email:",
+            value: "PTRickyAsnawiSentosa@gmail.com",
+            href: "mailto:PTRickyAsnawiSentosa@gmail.com",
+          },
+          {
+            label: "Phone Number:",
+            value: "6281287388422",
+            href: "https://wa.me/6281287388422",
+          },
+          {
+            label: "Phone Number II :",
+            value: "6281281931877",
+            href: "https://wa.me/6281281931877",
+          },
+        ],
+        maps: {
+          href: "https://maps.app.goo.gl/v3HzBLeDZhkXKWc58",
           text: "Buka Maps",
         },
       },
