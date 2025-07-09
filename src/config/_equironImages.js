@@ -47,6 +47,7 @@ const semesta_energi_service_logo =
 const tridaya_esa_pakarti_logo =
   "/img/law_stack/clients/tridaya-esa-pakarti_logo.png";
 const warna_warni_logo = "/img/law_stack/clients/warna-warni_logo.png";
+const ras_logo = "/img/law_stack/clients/ras_logo.png";
 
 const logo_equiron_white = "/img/law_stack/logo_white.png";
 const logoEquironHeaderBlack = "/img/law_stack/header_logo_black.png";
@@ -102,6 +103,7 @@ export {
   semesta_energi_service_logo,
   tridaya_esa_pakarti_logo,
   warna_warni_logo,
+  ras_logo,
   logo_equiron_white,
   hero_background,
   hero_overlay,

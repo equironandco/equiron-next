@@ -435,8 +435,9 @@ export const FormContents = styled.div`
       font-weight: 400;
       line-height: 1.5;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
+      gap: 8px;
 
       ${devices.smartphone} {
         flex-direction: column;
