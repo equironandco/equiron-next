@@ -1019,26 +1019,21 @@ export const CONTACT_DATA_EQUIRON = {
       {
         title: "Virtual Office",
         address:
-          "Blok V.3 02/06, Desa Bunibakti, Kecamatan Babelan, Kabupaten Bekasi, Jawa Barat.",
+          "Kawasan CBD Rasuna Epicentrum, Epiwalk Office Suite Level 5 Unit A501, Jalan H.R. Rasuna Said, Kel. Karet Kuningan, Kec. Setiabudi Jakarta Selatan, 12940.",
         information: [
           {
             label: "Email:",
-            value: "PTRickyAsnawiSentosa@gmail.com",
-            href: "mailto:PTRickyAsnawiSentosa@gmail.com",
+            value: "equironandco@gmail.com",
+            href: "mailto:equironandco@gmail.com",
           },
           {
             label: "Phone Number:",
-            value: "6281287388422",
-            href: "https://wa.me/6281287388422",
-          },
-          {
-            label: "Phone Number II :",
-            value: "6281281931877",
-            href: "https://wa.me/6281281931877",
+            value: "6287772300770",
+            href: "https://wa.me/6287772300770",
           },
         ],
         maps: {
-          href: "https://maps.app.goo.gl/v3HzBLeDZhkXKWc58",
+          href: "https://maps.app.goo.gl/GPVZnyCN5F7uDVsK9",
           text: "Open in Maps",
         },
       },
@@ -1148,26 +1143,21 @@ export const CONTACT_DATA_EQUIRON = {
       {
         title: "Kantor Virtual",
         address:
-          "Blok V.3 02/06, Desa Bunibakti, Kecamatan Babelan, Kabupaten Bekasi, Jawa Barat.",
+          "Kawasan CBD Rasuna Epicentrum, Epiwalk Office Suite Level 5 Unit A501, Jalan H.R. Rasuna Said, Kel. Karet Kuningan, Kec. Setiabudi Jakarta Selatan, 12940.",
         information: [
           {
-            label: "Email:",
-            value: "PTRickyAsnawiSentosa@gmail.com",
-            href: "mailto:PTRickyAsnawiSentosa@gmail.com",
+            label: "Email :",
+            value: "equironandco@gmail.com",
+            href: "mailto:equironandco@gmail.com",
           },
           {
-            label: "Phone Number:",
-            value: "6281287388422",
-            href: "https://wa.me/6281287388422",
-          },
-          {
-            label: "Phone Number II :",
-            value: "6281281931877",
-            href: "https://wa.me/6281281931877",
+            label: "No. Handphone :",
+            value: "6287772300770",
+            href: "https://wa.me/6287772300770",
           },
         ],
         maps: {
-          href: "https://maps.app.goo.gl/v3HzBLeDZhkXKWc58",
+          href: "https://maps.app.goo.gl/GPVZnyCN5F7uDVsK9",
           text: "Buka Maps",
         },
       },
